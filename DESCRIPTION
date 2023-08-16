@@ -1,0 +1,56 @@
+Package: scriabin
+Title: Single-cell resolved interaction analysis through binning
+Version: 0.0.0.9000
+Authors@R: 
+    person("Aaron", "Wilk", , "awilk@stanford.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Analysis of cell-cell communication at single-cell resolution
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown,
+    SeuratData
+VignetteBuilder: knitr
+biocViews: 
+    ComplexHeatmap, 
+    CelliD,
+    limma,
+    genefilter
+Imports: 
+    ade4,
+    magrittr,
+    graphics,
+    stats,
+    FSA,
+    dplyr,
+    tidyft,
+    tibble,
+    grid,
+    Seurat,
+    factoextra,
+    ggsci,
+    ComplexHeatmap,
+    circlize,
+    ggalluvial,
+    scales,
+    networkD3,
+    clipr,
+    ggplot2,
+    ggfittext,
+    cowplot,
+    Matrix,
+    pbapply,
+    nichenetr,
+    matrixStats,
+    WGCNA,
+    ComplexHeatmap,
+    CelliD,
+    limma,
+    genefilter,
+    qlcMatrix
+Remotes: 
+    saeyslab/nichenetr,
+    satijalab/seurat-data
